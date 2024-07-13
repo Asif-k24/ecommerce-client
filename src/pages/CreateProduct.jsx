@@ -25,11 +25,11 @@ export default function CreateProduct() {
         formData.append("price", data.price)
         formData.append("description", data.description)
         data.category.forEach(cat => {
-            formData.append("category[]", cat)
+            formData.append("category", cat)
         })
         let temp = [...data.images]
         temp.forEach(img => {
-            formData.append("images[]", img)
+            formData.append("image", img)
 
         })
 
