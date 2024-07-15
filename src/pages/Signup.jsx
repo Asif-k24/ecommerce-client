@@ -91,7 +91,7 @@ export default function Signup() {
                                     </div> */}
                                 </div>
                                 <div className="mt-2">
-                                    <input id="email" name="email" type="email" autoComplete='email' required className="px-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
+                                    <input id="email" placeholder='Ex : name@gmail.com' name="email" type="email" autoComplete='email' required className="px-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
                                 </div>
                             </div>
                             <div>
@@ -110,7 +110,7 @@ export default function Signup() {
                             <div>
                                 <label htmlFor="role" className="block text-sm font-medium leading-6 text-gray-900">Role</label>
                                 <div className="mt-2">
-                                    <input id="role" name="role" type="role" required className="px-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-offset-secondary sm:text-sm sm:leading-6" />
+                                    <input id="role" name="role" placeholder='Ex : Buyer / Seller' type="role" required className="px-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-offset-secondary sm:text-sm sm:leading-6" />
                                 </div>
                             </div>
 
