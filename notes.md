@@ -1,5 +1,12 @@
 <!-- 
 
+    User accounts:  b@b.com, pw: password
+                    s@s.com, pw: password
+
+ -->
+
+<!-- 
+
 Crud operations (in database)
     create
     read 
