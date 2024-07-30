@@ -39,7 +39,7 @@ Crud operations (in database)
 - 4 - CLIENT/END User ERROR
     400 - incorrect form values
     401 - unauthenticated // not logged in
-    402 - 
+    402 - the client must make a payment to access the requested resource.
     403 - forbidden // unauthorized // incorrect access/roles
     404 - page not foun // data not found or resources not found
     
