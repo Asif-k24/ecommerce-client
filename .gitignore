@@ -23,4 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-.cosine
+*.cosine
+*file.txt
+*initiate ecommerce.txt
